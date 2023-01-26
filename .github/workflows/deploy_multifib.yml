@@ -63,8 +63,8 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: multifib
-        environment_name: Multifib-env
-        version_label: lab12
+        application_name: mgmultifib
+        environment_name: Mgmultifib-env
+        version_label: zad2
         region: us-east-1
         deployment_package: deploy.zip
