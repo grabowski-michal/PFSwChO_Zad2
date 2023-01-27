@@ -22,7 +22,7 @@ jobs:
             image: michalgrabowski98/lab:fib-worker
           - dockerfile: ./Dockerfile
             context: nginx
-            image: michalgrabowski98/lab:fib-router  
+            image: michalgrabowski98/lab:fib-nginx  
     
     steps:
 
